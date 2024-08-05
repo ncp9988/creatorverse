@@ -91,7 +91,7 @@ const EditCreator = () => {
         <>
           <form onSubmit={handleSubmit}>
             <div>
-              <label htmlFor="name">Name:</label>
+              <label htmlFor="name">Name</label>
               <input
                 type="text"
                 id="name"
@@ -101,7 +101,7 @@ const EditCreator = () => {
               />
             </div>
             <div>
-              <label htmlFor="imageURL">Image URL:</label>
+              <label htmlFor="imageURL">Image URL</label>
               <p>Provide a link to an image of your creator. Be sure to include the http://</p>
               <input
                 type="url"
@@ -111,7 +111,7 @@ const EditCreator = () => {
               />
             </div>
             <div>
-              <label htmlFor="description">Description:</label>
+              <label htmlFor="description">Description</label>
               <p>Provide a description of the creator. Who are they? What makes them interesting?</p>
               <textarea
                 id="description"
@@ -121,7 +121,7 @@ const EditCreator = () => {
               />
             </div>
             <div>
-              <label htmlFor="youtube">YouTube Handle:</label>
+              <label htmlFor="youtube">YouTube</label>
               <p>The creator's YouTube handle (without the @)</p>
               <input
                 type="text"
@@ -131,7 +131,7 @@ const EditCreator = () => {
               />
             </div>
             <div>
-              <label htmlFor="twitter">Twitter Handle:</label>
+              <label htmlFor="twitter">Twitter</label>
               <p>The creator's Twitter handle (without the @)</p>
               <input
                 type="text"
@@ -141,7 +141,7 @@ const EditCreator = () => {
               />
             </div>
             <div>
-              <label htmlFor="instagram">Instagram Handle:</label>
+              <label htmlFor="instagram">Instagram</label>
               <p>The creator's Instagram handle (without the @)</p>
               <input
                 type="text"
